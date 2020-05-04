@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+.Carousal-Wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Carousal-Item {
+  display: none;
+}
+.Carousal-Item_active {
+  display: block;
+  background-color: greenyellow;
+  height: 20rem;
+  width: 20rem;
+}

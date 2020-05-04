@@ -4,7 +4,7 @@ import CarousalWrap from "./CarousalWrap";
 import "./App.css";
 
 function App() {
-  let slideArr = ["first", "sec", "third"];
+  const slideArr = ["first", "sec", "third"];
   return (
     <div className="App">
       <CarousalWrap slides={slideArr}></CarousalWrap>
